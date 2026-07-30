@@ -1,0 +1,14 @@
+{
+  "name": "vanguard-golf",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:game": "node game/serve.mjs",
+    "dev:lab": "npm --prefix ball-lab run dev",
+    "build:lab": "npm --prefix ball-lab run build",
+    "sync:public": "node scripts/sync-public.mjs",
+    "build": "npm run build:lab && npm run sync:public",
+    "preview": "npx --yes serve public -p 4173"
+  }
+}

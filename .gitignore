@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+ball-lab/node_modules/
+ball-lab/dist/
+
+# Build / OS
+.DS_Store
+Thumbs.db
+*.log
+.vite/
+.cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+.vercel
+
+# Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Local evidence / profiles
+.chrome-profile/
+.playwright/
+.playwright-mcp/
+shots/
+*.png
+!public/**

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "installCommand": "npm install --prefix ball-lab",
+  "rewrites": [
+    { "source": "/creator", "destination": "/creator/index.html" }
+  ]
+}
